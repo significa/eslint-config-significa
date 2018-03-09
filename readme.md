@@ -14,7 +14,7 @@ Create a new file in the root of your project with name `.eslintrc`, then extend
 
 ```json
 {
-  extends: "@significa/significa"
+  "extends": "@significa/significa"
 }
 ```
 
