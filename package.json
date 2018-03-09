@@ -1,19 +1,18 @@
 {
-  "name": "eslint-config-significa",
-  "version": "0.1.0",
-  "description":
-    "This package provides Significa's .eslintrc extensible shared config.",
+  "name": "@significa/eslint-config-significa",
+  "version": "0.0.1",
+  "description": "This package provides Significa's .eslintrc extensible shared config.",
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Significa/eslint-config.git"
+    "url": "git+https://github.com/Significa/eslint-config-significa.git"
   },
   "author": "Significa Lda.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Significa/eslint-config/issues"
+    "url": "https://github.com/Significa/eslint-config-significa/issues"
   },
-  "homepage": "https://github.com/Significa/eslint-config#readme",
+  "homepage": "https://github.com/Significa/eslint-config-significa#readme",
   "dependencies": {
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.7.0",
