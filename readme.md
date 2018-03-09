@@ -14,7 +14,7 @@ Create a new file in the root of your project with name `.eslintrc`, then extend
 
 ```json
 {
-    "extends": "significa"
+  extends: "@significa/significa"
 }
 ```
 
@@ -33,5 +33,4 @@ For more powerfull features, set up the [Prettier](https://prettier.io/), first 
   "printWidth": 100,
   "tabWidth": 2
 }
-
 ```
