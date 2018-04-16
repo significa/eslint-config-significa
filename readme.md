@@ -57,8 +57,7 @@ If you need to overwrite rules both in eslint or prettier, edit `.eslintrc` file
       "error",
       {
         "singleQuote": true,
-        "semi": true,
-        "printWidth": 80
+        "semi": true
       }
     ]
   }
