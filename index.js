@@ -9,14 +9,7 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
-        singleQuote: false,
-        trailingComma: "none",
-        bracketSpacing: true,
-        jsxBracketSameLine: false,
-        semi: false,
-        parser: "babylon",
-        printWidth: 100,
-        tabWidth: 2
+        printWidth: 100
       }
     ]
   }
