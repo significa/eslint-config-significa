@@ -2,7 +2,6 @@ module.exports = {
   parser: "babel-eslint",
   extends: ["airbnb", "prettier", "prettier/react", "prettier/flowtype"],
   rules: {
-    semi: ["error", "never"],
     "jsx-a11y/href-no-hash": 0,
     "react/jsx-filename-extension": "off",
     "import/extensions": "never",
