@@ -9,6 +9,7 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
+        semi: false,
         printWidth: 100
       }
     ]
