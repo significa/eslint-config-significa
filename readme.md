@@ -18,19 +18,49 @@ Create a new file in the root of your project with name `.eslintrc`, then extend
 }
 ```
 
-## Recomendation
+## IDE Setup
 
-For more powerfull features, set up the [Prettier](https://prettier.io/), first in your IDE and after in your project. Create again a new file in the root of your project with name `.prettierrc`. Prettier allows the auto-format feature using the same `eslint` config configuration.
+Install [Prettier](https://prettier.io/) and [ESLint](https://eslint.org) packages on your IDE. Set up Prettier to use Eslint's config `.eslintrc`. We recommend checking the "Format on save" option on Prettier's package.
+
+#### Atom
+
+* Install [linter-eslint](https://atom.io/packages/linter-eslint)
+* Install [prettier-atom](https://atom.io/packages/prettier-atom)
+* Turn on "ESLint Integration" and "Format Files on Save" on `prettier-atom` Settings
+
+#### VSCode
+
+* Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* Install [Prettier](https://github.com/prettier/prettier-vscode)
+* Edit your user preferences:
+
+```json
+  "prettier.eslintIntegration": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  }
+```
+
+## Overwriting rules
+
+If you need to overwrite rules both in eslint or prettier, edit `.eslintrc` file.
+
+#### Example
 
 ```json
 {
-  "singleQuote": false,
-  "trailingComma": "none",
-  "bracketSpacing": true,
-  "jsxBracketSameLine": false,
-  "semi": false,
-  "parser": "babylon",
-  "printWidth": 100,
-  "tabWidth": 2
+  "extends": "@significa/significa",
+  "rules": {
+    "semi": ["error", "always"],
+    "no-use-before-define": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": true,
+        "printWidth": 80
+      }
+    ]
+  }
 }
 ```
