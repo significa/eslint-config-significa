@@ -1,6 +1,6 @@
 {
   "name": "@significa/eslint-config-significa",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "This package provides Significa's .eslintrc extensible shared config.",
   "main": "./index.js",
   "repository": {
