@@ -23,7 +23,7 @@
     "prettier": "^1.11.1"
   },
   "peerDependencies": {
-    "babel-eslint": "8.2.2",
+    "babel-eslint": "8.2.5",
     "eslint": ">= 3"
   }
 }
