@@ -1,6 +1,6 @@
 {
   "name": "@significa/eslint-config-significa",
-  "version": "0.2.1",
+  "version": "0.3.0-0",
   "description": "This package provides Significa's .eslintrc extensible shared config.",
   "main": "./index.js",
   "repository": {
@@ -14,16 +14,12 @@
   },
   "homepage": "https://github.com/Significa/eslint-config-significa#readme",
   "dependencies": {
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.4.0",
     "prettier": "^1.11.1"
-  },
-  "peerDependencies": {
-    "babel-eslint": "8.2.5",
-    "eslint": ">= 3"
   }
 }
