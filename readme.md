@@ -5,7 +5,7 @@ This package provides Significa's `.eslintrc` extensible shared config.
 ## Install
 
 ```sh
-yarn add eslint babel-eslint prettier @significa/eslint-config-significa --dev
+yarn add eslint babel-eslint @significa/eslint-config-significa --dev
 ```
 
 ## Usage
