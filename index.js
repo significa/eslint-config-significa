@@ -5,6 +5,7 @@ module.exports = {
   rules: {
     "jsx-a11y/href-no-hash": 0,
     "react/jsx-filename-extension": "off",
+    "react/destructuring-assignment": 0,
     "import/extensions": "never",
     "no-console": [
       "error",
