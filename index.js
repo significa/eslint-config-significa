@@ -3,6 +3,7 @@ module.exports = {
   extends: ["airbnb", "prettier", "prettier/react"],
   plugins: ["react", "prettier", "flowtype"],
   rules: {
+    "arrow-body-style": 0,
     "jsx-a11y/href-no-hash": 0,
     "react/jsx-filename-extension": "off",
     "react/destructuring-assignment": 0,
